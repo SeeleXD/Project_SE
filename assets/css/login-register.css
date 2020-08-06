@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgLogin {
+    /* The image used */
+
+    background-image: url("../images/login-register/background-login-register.jpg");
+    background-color: #cccccc;
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bgRegister {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* The image used */
+
+    background-image: url("../images/login-register/background-login-register.jpg");
+    background-color: #cccccc;
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.boxLogin {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+}
+
+.boxRegister {
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+}

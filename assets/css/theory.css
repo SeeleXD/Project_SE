@@ -1,0 +1,27 @@
+/* Theory title*/
+#TheoryTitle {
+    font-size: 50px;
+    text-align: center;
+    align-content: center;
+    color: black;
+}
+
+/* Theory Table */
+
+#TheoryTable {
+    border: solid black 2px;
+    border-radius: 100px;
+    width: 100%;
+}
+
+#TheoryTable td, #TheoryTable tr {
+    padding: 15px
+}
+
+#TheoryTable td:nth-child(n+2) {
+    text-align: right;
+}
+
+#TheoryContent {
+    color: black;
+}

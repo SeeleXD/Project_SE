@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+@media only screen and (max-width: 460px) {
+    /* For phones: */
+    /* 3px font */
+    .img {
+        width: 90px;
+    }
+
+    .box {
+        font-size: 12px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+div {
+    word-wrap: break-word
+}
+
+@media only screen and (max-width: 789px) and (min-width: 461px) {
+    /* For tablet: */
+    /* 16px font */
+    .img {
+        width: 150px;
+    }
+
+    .box {
+        font-size: 15px;
+        width: 420px;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 790px) {
+    /* For desktop: */
+    /* 20px font */
+    .box {
+        width: 600px;
+        height: 350px;
+    }
+}
+
+.box {
+    display: block;
+    position: absolute;
+    /* border-radius: 25px; */
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* border: 2px solid rgb(0, 0, 0); */
+    padding: 20px;
+
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    color: #e65100;
+}
+
+.cancel {
+    color: lightgrey;
+    font-size: 12px;
+}
+
+.infosub {
+    padding-top: 1em;
+    border-top: 2px solid #e65100;
+    color: black;
+    font-weight: bold;
+}
